@@ -42,5 +42,3 @@ It uses **deep learning** and **computer vision** to assist doctors and research
 ```bash
   python app.py
 ```
-Copy code
-python app.py
