@@ -1,22 +1,46 @@
-# MediVision AI – MedTech Platform
+# MediVision-AI: MedTech Platform
 
-🚑 An AI-powered medical treatment platform designed to assist in diagnosis, screening, and patient care.  
-This project leverages **React + Vite + TailwindCSS** (frontend) and modern AI/ML integrations for medical technology solutions.  
-
----
-
-## 📌 Features
-- 🧬 **AI-Powered Screening** – Detects patterns from medical data/images  
-- 📊 **Metrics Dashboard** – Displays patient information and medical statistics  
-- 🧾 **User-Friendly UI** – Clean and responsive design with TailwindCSS  
-- 🔍 **Search & Records** – Easy access to medical records and patient data  
+MediVision-AI is an AI-powered healthcare platform for **medical image analysis**, **disease detection**, and **healthcare automation**.  
+It uses **deep learning** and **computer vision** to assist doctors and researchers with faster, more accurate diagnostics.
 
 ---
 
-## 🚀 Tech Stack
-- **Frontend:** React (Vite), Tailwind CSS  
-- **Icons & Assets:** SVG-based UI assets  
-- **Package Management:** npm / yarn  
-- **Config:** Babel, PostCSS, Vite  
+## Features
+- Medical imaging analysis (X-rays, CT scans, MRIs, etc.)
+- Deep learning models with TensorFlow / PyTorch
+- Disease prediction and classification
+- Explainable AI with heatmaps and visualizations
+- Web-based dashboard for healthcare professionals
 
 ---
+
+## Tech Stack
+- **Languages:** Python, JavaScript  
+- **AI/ML:** TensorFlow, PyTorch, scikit-learn, OpenCV  
+- **Web Framework:** Flask / Django  
+- **Frontend:** React.js / HTML5 / CSS  
+- **Database:** PostgreSQL / MongoDB  
+
+---
+
+## Installation  
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/arpitaapatel/MediVision-AI--MedTech-Platform.git
+   cd MediVision-AI--MedTech-Platform
+2.Create & activate a virtual environment
+  ``` bash
+  python -m venv venv
+  source venv/bin/activate   # Mac/Linux
+  venv\Scripts\activate      # Windows
+```
+3.Install dependencies
+  ```bash
+  pip install -r requirements.txt
+```
+4.Run the application
+```bash
+  python app.py
+```
+Copy code
+python app.py
